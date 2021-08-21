@@ -24,3 +24,21 @@ function startQuiz() {
   countdown();
   quizQuestions.style.display = "flex";
 }
+
+// Timer countdown
+function countdown(){
+    var timerInternal = setInterval(function (){
+        if (timeLeft > 1) {
+            timer.textContent = timeLeft + "seconds";
+            timeLeft--;
+        } else if (timeLeft === 1) {
+            timer.textContent = timeLeft + "second"'
+            timeLeft--;
+        } else {
+            timer.textContent = "";
+            clearInterval(timerInterval);
+            displayMessage();
+        }
+    }, 1000);
+    showQuestions();
+}
