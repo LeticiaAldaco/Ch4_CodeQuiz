@@ -21,9 +21,10 @@ As A coding boot camp student I want to take a timed quiz on JavaScript fundamen
 * THEN I can save my initials to local storage
 
 ## Link
-
+https://leticiaaldaco.github.io/Ch4_CodeQuiz/
 
 ## Pictures
+![Screen Shot 2021-08-22 at 4 58 13 PM](https://user-images.githubusercontent.com/80429282/130371336-81a10b55-b85a-4444-93d9-f94667f260ef.png)
 
 
 
